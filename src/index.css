@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  /* Backgrounds */
+  --background: #050816;
+  --surface: #0A1020;
+  --card: #111827;
+
+  /* Brand */
+  --primary: #4F7CFF;
+  --primary-hover: #6B8CFF;
+
+  /* Accent */
+  --accent: #35D6FF;
+  --accent-light: #7EE8FF;
+
+  /* Text */
+  --text: #FFFFFF;
+  --text-secondary: #A7B0C2;
+
+  /* Borders */
+  --border: rgba(255, 255, 255, .08);
+
+  /* Effects */
+  --glass: rgba(255, 255, 255, .05);
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #4F7CFF 0%, #35D6FF 100%);
+  --gradient-glow: radial-gradient(circle at top, rgba(79, 124, 255, .18), transparent 60%);
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+code,
+pre,
+.mono {
+  font-family: "IBM Plex Mono", monospace;
+}
